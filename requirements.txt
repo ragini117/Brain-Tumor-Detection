@@ -1,4 +1,4 @@
-﻿absl-py==2.1.0
+absl-py==2.1.0
 altair==5.5.0
 asgiref==3.8.1
 astunparse==1.6.3
@@ -17,7 +17,7 @@ gitdb==4.0.12
 GitPython==3.1.44
 google-pasta==0.2.0
 grpcio==1.70.0
-h5py==3.12.1
+h5py<3.10
 idna==3.10
 itsdangerous==2.2.0
 Jinja2==3.1.5
@@ -34,13 +34,13 @@ ml-dtypes==0.4.1
 namex==0.0.8
 narwhals==1.26.0
 nltk==3.9.1
-numpy==2.2.2
+numpy>=1.19.5,<1.24
 opt_einsum==3.4.0
 optree==0.14.0
 packaging==24.2
 pandas==2.2.3
 pillow==11.1.0
-protobuf==5.29.3
+protobuf<5,>=3.20.0
 pyarrow==19.0.0
 pydeck==0.9.1
 Pygments==2.19.1
@@ -54,8 +54,8 @@ requests==2.32.3
 rich==13.9.4
 rpds-py==0.22.3
 scikit-learn==1.6.1
-scipy==1.15.1
-setuptools==75.8.0
+scipy>=1.5.4,<1.11
+setuptools>=65.0.0
 six==1.16.0
 smmap==5.0.2
 sqlparse==0.4.4
@@ -64,7 +64,6 @@ tenacity==9.0.0
 tensorboard==2.18.0
 tensorboard-data-server==0.7.2
 tensorflow==2.18.0
-tensorflow_intel==2.18.0
 termcolor==2.5.0
 threadpoolctl==3.5.0
 toml==0.10.2
