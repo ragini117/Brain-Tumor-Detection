@@ -66,7 +66,9 @@ Loaded using tf.keras.models.load_model() for testing and deployment.
 
 4️⃣ Flask Web Application
 
-📦 Structure:
+### 📦 Project Structure
+
+```plaintext
 /models
     model.h5
 
@@ -77,6 +79,8 @@ Loaded using tf.keras.models.load_model() for testing and deployment.
     (optional CSS/images)
 
 main.py
+```
+
 
 ⚙️ Functionality:
 Users upload MRI images.
@@ -87,37 +91,34 @@ Model predicts tumor type and confidence.
 
 Results and the uploaded image are displayed on the web page.
 
-🚀 How to Run
-1️⃣ Clone the repository:
+## 🚀 How to Run
 
-bash
-Copy
-Edit
+1️⃣ **Clone the repository:**
+
+```bash
 git clone https://github.com/yourusername/mri-brain-tumor-detector.git
 cd mri-brain-tumor-detector
+```
 
-2️⃣ Install dependencies:
+2️⃣ **Install dependencies:**
 
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
+```
 
-3️⃣ Run Flask server:
+3️⃣ **Run Flask server:**
 
-bash
-Copy
-Edit
+```bash
 python main.py
+```
 
-4️⃣ Open your browser:
+4️⃣ **Open your browser:**
 
-cpp
-Copy
-Edit
+```
 http://127.0.0.1:5000/
-Upload an MRI image, view predictions, and test the system.
+```
 
+Upload an MRI image, view predictions, and test the system.
 
 
 
