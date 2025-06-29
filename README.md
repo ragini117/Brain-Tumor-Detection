@@ -1,4 +1,5 @@
 🧠 MRI Brain Tumor Detection using Deep Learning & Flask
+
 This project enables automatic brain tumor detection and classification from MRI images using a deep learning model (VGG16 Transfer Learning) and a Flask-based web application for real-time user interaction.
 
 📌 Project Overview
@@ -123,9 +124,14 @@ Upload an MRI image, view predictions, and test the system.
 
 
 💡 Key Highlights
+
 ✅ Efficient data handling and augmentation
+
 ✅ Transfer learning for high accuracy with fewer epochs
+
 ✅ User-friendly web interface for real-time testing
+
 ✅ Clear visualization of predictions and confidence levels
+
 ✅ Lightweight, fully open-source, and extendable
 
